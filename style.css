@@ -75,7 +75,7 @@ button:hover{
     align-items: center;
 }
 /*sobre*/
-header img{
+.logo{
     height: 136px;
     width: 136px;
     align-items: left;
@@ -143,4 +143,101 @@ a{
     line-height: 1.3em;
     margin-left: 30px;
     margin-right: 30px;
+}
+/*sobre*/
+.body_sobre{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    background-color: #E4363B;
+}
+.sobre_header{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: #E4363B;
+}
+.logo{
+    margin: 20px 0  0 40px;
+    height: 171px;  
+}
+footer{
+    background-color: #E4363B;
+    height: 60px;
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
+    color: black;
+}
+.imagem{
+    width: 520px;
+    height: 580px;
+    margin: 30px 0 0 280px;
+}
+.missao{
+    font-size: 20px;
+    margin: 20px -85px 30px 20px;
+    text-align: justify;
+    padding: -20px;
+}
+.missao p{
+    margin-top: 20px;
+    line-height: 1.3em;
+}
+ul{
+    background-color: aliceblue;
+}
+ul li{
+    display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+    
+}
+.botao_login {
+    text-decoration: none;
+    font-size: 25px;
+    color: #E4363B;
+    background-color: black;
+    border-radius: 10px;
+    padding: 8px;
+    position: relative;
+	width: 940px;
+    margin: 2% 2% 87% 87%;
+}
+.cad_principal{
+    background-color: aliceblue;
+    display: inline-block;
+    text-align: center;
+	width: 30%;
+	vertical-align: top;
+	padding: 40px 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+    margin: 250px 590px;
+}
+.cad_principal main{
+    font-size: 23px;
+}
+.cad_principal input{
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 3px;
+}
+.cad_principal .salvar{
+    padding: 10px;
+    background-color: #E4363B;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.salvar:hover{
+    cursor: pointer;
+    font-size: 25px;
+    background-color: #a52226;
+    transition: 0.5s;
+}
+.cad_principal p {
+    color: gray;
+    margin-top: 20px;
+    font-size: 11px;
 }
