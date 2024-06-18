@@ -7,13 +7,15 @@
 }
 
 .titulo_principal{
-    width: 350px;
-    height: 2rem;
     margin: 20px;
     color: rgb(255, 255, 255);
-    background-color: #031749;
+    background-color: #BF3633;
     border: solid 2px black;
     border-radius: 5rem;
+    font-size: 16px;
+}
+.titulo{
+    font-size: 56px;
 }
 .local {
     height: 2rem;
