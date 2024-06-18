@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descarte Eletronico</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="principal.css">
 </head>
+
 <body>
-    <button type="submit"> Encontre pontos de coleta de Lixo Eletronico próximo</button>
-    <hr>
-    <h1>Encontre pontos de coleta de lixo eletronico perto de você </h1>
-    <h3>Descarte seu lixo eletronico de forma responsável</h3>
-    <button class="login">Digite a sua localização</button>
+    <header>
+        <p class="titulo_principal"> Encontre pontos de coleta de Lixo Eletronico próximo</p>
+        <hr>
+        <h1>Encontre pontos de coleta de lixo eletronico perto de você </h1>
+    </header>
+    <h3>Descarte seu lixo eletrônico de forma responsável</h3>
+
+    <label for="localizacao" class="local">Digite a sua localização:</label>
+    <input type="text" id="username" name="username" placeholder="Digite sua localização" required>
+    <button type="submit">Pesquisar</button>
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Eg3uBpzkd1MkuhjR7OQ0AJULsTiMfOU&ehbc=2E312F&noprof=1"
+        width="640" height="480"></iframe>
 </body>
+
 </html>
