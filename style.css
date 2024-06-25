@@ -42,7 +42,7 @@ body {
 .form-group input {
     width: 100%;
     padding: 10px;
-    border: 4px solid white;
+    border-color: black;
     border-radius: 50px;
 }
 
@@ -74,6 +74,17 @@ button {
 button:hover {
     cursor: pointer;
     background-color: #a52226;
+}
+.rodape{
+    color: #828282;
+    font-size: 13px;
+    margin: 20px;
+}
+.redefinir:hover{
+    cursor: pointer;
+    font-size: 17px;
+    text-decoration: underline #BF3633;
+    transition: 0.4s;
 }
 
 * {
@@ -125,7 +136,7 @@ button:hover {
     width: 940px;
     color: #000000;
     font-size: 20px;
-    margin-left: 1000px;
+    margin-left: 80%;
     text-decoration: none;
     margin-right: 10px;
     padding: -20px;
@@ -182,7 +193,6 @@ a {
 
 .botao-principal:hover {
     background-color: #a52226;
-    font-size: 20px;
     transition: 0.4s;
 }
 
@@ -192,6 +202,8 @@ a {
     align-items: center;
     text-align: center;
     margin-top: 140px;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 
 .titulo {
