@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-body{
-    font-family: "Open sans", Arial, sans-serif;  
+body {
+    font-family: "Open sans", Arial, sans-serif;
 }
 
 /*login*/
-.login-principal{
+.login-principal {
     background-color: #BF3633;
     display: flex;
     justify-content: center;
@@ -13,41 +13,50 @@ body{
     height: 100vh;
     margin: 0;
 }
+
 .login-container {
-    background-color: #d85a58;
+    background-color: white;
     padding: 70px;
     border-radius: 8px;
     width: 400px;
+    border: #000000;
 }
+
 .login-container h1 {
     text-align: center;
     margin-bottom: 60px;
 }
+
 .form-group {
     margin-bottom: 40px;
     margin-top: 20px;
+    border-color: #000000;
 }
+
 .form-group label {
     display: block;
     font-weight: bold;
     margin-bottom: 10px;
 }
+
 .form-group input {
     width: 100%;
     padding: 10px;
     border: 4px solid white;
     border-radius: 50px;
 }
+
 .form-group button {
     width: 100%;
     padding: 10px;
-    background-color: #d85a58;
+    background-color: #BF3633;
     color: #000000;
     border: none;
     border-radius: 10px;
     cursor: pointer;
 }
-button{
+
+button {
     align-items: center;
     text-transform: uppercase;
     padding: 1rem 1.5em;
@@ -55,30 +64,32 @@ button{
     border: none;
     color: #ffff;
     cursor: pointer;
-    opacity: 0.7;
     flex: 3;
     border-radius: 10px;
     font-size: 15px;
     margin-bottom: 10px;
     margin-top: 20px;
 }
-button:hover{
+
+button:hover {
     cursor: pointer;
-    opacity: 1;
+    background-color: #a52226;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: 0;
 }
 
-.container{
+.container {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.texto{
+
+.texto {
     margin: 32px;
     font-size: 20px;
     border-radius: 10px;
@@ -86,17 +97,32 @@ button:hover{
     margin-top: 20px;
     border-color: #828282;
 }
-.cnn{
+
+.cnn {
     height: 45px;
     width: 45px;
+    border-radius: 50%;
 }
-.logo{
-    margin: 20px 0  0 40px;
-    height: 171px;  
+
+.sobre_cnn {
+    margin-left: 20px;
 }
-.login{ 
+
+.sobre_cnn:hover {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.logo {
+    margin: 20px 0 0 40px;
+    height: 171px;
+}
+
+.login {
     position: relative;
-	width: 940px;
+    width: 940px;
     color: #000000;
     font-size: 20px;
     margin-left: 1000px;
@@ -104,29 +130,45 @@ button:hover{
     margin-right: 10px;
     padding: -20px;
 }
-a{
+
+.login a:hover {
+    cursor: pointer;
+    font-size: 21px;
+    text-decoration: underline #BF3633;
+    transition: 0.4s;
+}
+
+a {
     text-decoration: none;
     color: #000000;
+    text-decoration: none;
+    margin: 5px;
 }
-.botao-login{
+
+/*index*/
+.botao-login {
     background-color: #BF3633;
     border-radius: 5px;
     padding: 15px;
     color: white;
 }
-.principal{
+
+.principal {
     text-align: center;
     margin-top: 240px;
 }
-.principal h1{
+
+.principal h1 {
     font-size: 64px;
 }
-.principal p{
+
+.principal p {
     font-size: 24px;
     color: #828282;
     margin: 30px;
 }
-.botao-principal{
+
+.botao-principal {
     background-color: #BF3633;
     border-radius: 7px;
     padding: 15px;
@@ -137,20 +179,29 @@ a{
     color: white;
     margin-bottom: -440px;
 }
-.comp_img{
+
+.botao-principal:hover {
+    background-color: #a52226;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.comp_img {
     width: 1279px;
     height: 660px;
     align-items: center;
     text-align: center;
     margin-top: 140px;
 }
-.titulo{
+
+.titulo {
     font-size: 40px;
     font-weight: bold;
     margin-left: 20px;
     margin-top: 40px;
 }
-.corpo_texto{
+
+.corpo_texto {
     text-align: justify;
     font-size: 20px;
     margin: 20px;
@@ -159,43 +210,50 @@ a{
     margin-right: 30px;
 }
 
-/*entrar html*/
-.body_sobre{
+footer {
     background-color: #E4363B;
-}
-.cad_principal{
-    background-color: aliceblue;
-    display: inline-block;
+    height: 60px;
     text-align: center;
-	width: 30%;
-	vertical-align: top;
-	padding: 40px 20px;
-	box-sizing: border-box;
-	border-radius: 10px;
-    margin: 250px 590px;
+    width: 100%;
+    margin-top: 60px;
+    color: black;
 }
-.cad_principal main{
-    font-size: 23px;
-}
-.cad_principal input{
-    font-size: 17px;
-    border-radius: 5px;
-    padding: 3px;
-}
-.cad_principal .salvar{
-    padding: 10px;
-    background-color: #E4363B;
-    border-radius: 10px;
-    font-size: 20px;
-}
-.salvar:hover{
-    cursor: pointer;
-    font-size: 25px;
-    background-color: #a52226;
-    transition: 0.5s;
-}
-.cad_principal p {
-    color: gray;
+
+/*principal*/
+.titulo_principal {
+    margin: 20px;
     margin-top: 20px;
-    font-size: 11px;
+    margin-right: 140px;
+    font-size: 56px;
+    display: inline-block;
+    width: 36%;
+    color: #a52226;
+}
+
+.local {
+    height: 2rem;
+    color: black;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+iframe {
+    width: 45%;
+    height: 480px;
+    margin: 30px;
+    margin-top: 100px;
+}
+
+.corpo {
+    margin: 20px;
+    display: inline-block;
+}
+
+.busca-lugar{
+    background-color: #BF3633;
+    border: solid 1px;
+    border-radius: 8px;
+    width: 360px;
+    height: 40px;
+    margin: 20px;
 }
