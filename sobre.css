@@ -4,8 +4,26 @@ body{
     background-color: #E4363B;
 }
 header{
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    background-color: #E4363B;
+    color: #000;
+}
+.login {
+    position: relative;
+    width: 940px;
+    font-size: 20px;
+    margin-left: 80%;
+    padding: -20px;
+}
+a{
+       color: #000000; 
+       text-decoration: none;
+       margin-right: 10px;
+}
+.login a:hover {
+    color: #000;
+    cursor: pointer;
+    font-size: 21px;
+    text-decoration: underline #fff;
+    transition: 0.6s;
 }
 .logo{
     margin: 20px 0  0 40px;
