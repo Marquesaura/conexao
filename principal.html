@@ -5,22 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descarte Eletronico</title>
-    <link rel="stylesheet" href="principal.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="busca.js">
 </head>
 
 <body>
     <header>
-        <p class="titulo_principal"> Encontre pontos de coleta de Lixo Eletronico próximo</p>
-        <hr>
-        <h1>Encontre pontos de coleta de lixo eletronico perto de você </h1>
+        <img src="logo.png" alt="logo CEEP" class="logo">
+        <div class="login">
+            <a href="sobre.html"> Home</a>
+            <a href="entrar.html">Entrar</a>
+            <a href="login.html" class="botao-login">Login</a>
+        </div>
     </header>
-    <h3>Descarte seu lixo eletrônico de forma responsável</h3>
 
-    <label for="localizacao" class="local">Digite a sua localização:</label>
-    <input type="text" id="username" name="username" placeholder="Digite sua localização" required>
-    <button type="submit">Pesquisar</button>
-    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Eg3uBpzkd1MkuhjR7OQ0AJULsTiMfOU&ehbc=2E312F&noprof=1"
-        width="640" height="480"></iframe>
+    <div class="corpo">
+        <h1 class="titulo_principal">Encontre pontos de coleta de lixo eletrônico perto de você </h1>
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Eg3uBpzkd1MkuhjR7OQ0AJULsTiMfOU&ehbc=2E312F&noprof=1">
+        </iframe>
+    </div>
+    <div class="divBusca">
+        <label for="localizacao" class="local">Digite a sua localização:</label>
+        <input class="busca-lugar" type="text">
+        <ul class="lugar-lista"> 
+            <li><a href="https://maps.app.goo.gl/GeY96vwCq1N5ppDN9">Supermercados Copagril - Cianorte </a></li>
+            <li href=""></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
 </body>
 
 </html>
