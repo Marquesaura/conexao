@@ -7,6 +7,7 @@
     <title>Descarte Eletronico</title>
     <link rel="stylesheet" href="style.css">
     <!--<link rel="stylesheet" href="try.html"> -->
+    <link rel="script" href="busca.js">
 </head>
 
 <body>
@@ -26,9 +27,9 @@
     </div>
 
     <ul id="lista-locais">
-        <li>Supermercado Copagril</li>
-        <li>Supermercado Amigão Av. Pará</li>
-        <li>Eletroluz</li>
+        <li><a href="https://maps.app.goo.gl/kvmGxLTnu2qFLtp59" target="_blank">Supermercado Copagril</a></li>
+        <li> <a href="https://maps.app.goo.gl/hJoL8MmXyWYUnmSw5" target="_blank">Supermercado Amigão Av. Pará</a></li>
+        <li><a href="https://maps.app.goo.gl/rHVY35r9GS6o928P9" target="_blank">Eletroluz</a></li>
         <li>Secretaria Municipal do meio ambiente</li>
         <li>Magazine Luiza</li>
         <li>Casas Bahia</li>
@@ -37,48 +38,12 @@
         <li>Lojas Vivo - zona 01</li>
         <li>Tim Cianorte</li>
         <li>Loja Claro</li>
-        <!-- Os locais serão adicionados dinamicamente aqui -->
     </ul>
-
-    <script>
-        // Lista de locais com nome, latitude e longitude
-        var local = [
-            { title: 'Supermercado Copagril', location: { lat: -23.669696714195954, lng: -52.618870271178224 } },
-            { title: 'Supermercado Amigão Av. Pará', location: { lat: -23.663115032599435, lng: -52.61381718789813 } },
-            { title: 'Eletroluz', location: { lat: -23.662812885219445, lng: -52.59538575063449 } },
-            { title: 'Secretaria Municipal do meio ambiente', location: { lat: -23.66519938902476, lng: -52.60292955762693 } },
-            { title: 'Magazine Luiza', location: { lat: -23.656833961386084, lng: -52.605292096795225 } },
-            { title: 'Casas Bahia', location: { lat: -23.657755789033153, lng: -52.60465370000295 } },
-            { title: 'Perbambucanas', location: { lat: -23.657027769376665, lng: -52.6070251576434 } },
-            { title: 'Lojas Vivo - pça 26 de Julho', location: { lat: -23.656864869147586, lng: -52.60623401352972 } },
-            { title: 'Lojas Vivo - zona 01', location: { lat: -23.658229052469967, lng: -52.6088698711731 } },
-            { title: 'Tim Cianorte', location: { lat: -23.657856197726645, lng: -52.604454271188125 } },
-            { title: 'Loja Claro', location: { lat: -23.658504117376246, lng: -52.60839235764433 } }
-        ]
-
-        // Função para inicializar a lista de locais no HTML
-        function inicializarListaLocais() {
-            var lista = document.getElementById('lista-locais');
-
-            locais.forEach(function(local) {
-                var itemLista = document.createElement('li');
-                itemLista.textContent = local.nome + ' - Latitude: ' + local.lat + ', Longitude: ' + local.lng;
-                lista.appendChild(itemLista);
-            });
-        }
-
-        // Chamar a função para inicializar a lista quando a página carregar
-        window.onload = function() {
-            inicializarListaLocais();
-        };
-    </script>
 
     <div class="divBusca">
         <label for="localizacao" class="local">Digite a sua localização:</label>
         <input class="busca-lugar" type="text">
-       <script>
         
-       </script>
     </div> 
     <footer>
         <p>&copy; Centro Estadual de Educação Profissional Cianorte - CEEP</p>
