@@ -39,8 +39,9 @@ footer{
 }
 .imagem{
     width: 520px;
-    height: 580px;
     margin: 30px 0 0 280px;
+    max-width: 100%;
+    height: auto;
 }
 .missao{
     font-size: 20px;
