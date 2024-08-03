@@ -75,12 +75,14 @@ button:hover {
     cursor: pointer;
     background-color: #a52226;
 }
-.rodape{
+
+.rodape {
     color: #828282;
     font-size: 13px;
     margin: 20px;
 }
-.redefinir:hover{
+
+.redefinir:hover {
     cursor: pointer;
     font-size: 17px;
     text-decoration: underline #BF3633;
@@ -99,9 +101,6 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
-
-
-
 
 .logo {
     margin: 20px 0 0 40px;
@@ -155,14 +154,29 @@ a {
     color: #828282;
     margin: 30px;
 }
+
+.titulo {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
 .texto {
-    margin: 42px;
+    margin: 20px;
     font-size: 20px;
     border-radius: 10px;
     margin-bottom: 10px;
-    margin-top: 20px;
-    border-color: #000000;
 }
+
+.materia_descarte {
+    border-color: #000000;
+    text-align: justify;
+    border: 2px solid #000000;
+    margin: 20px;
+    border-radius: 10px;
+}
+
 .cnn {
     height: 45px;
     width: 45px;
@@ -171,14 +185,15 @@ a {
 }
 
 .sobre_cnn {
-    margin-left: 20px;
+    font-size: 15px;
+    color: #828282;
+    margin-left: 80px;
+    margin-top: -35px;
 }
 
 .texto:hover {
-    font-size: 21px;
-    transition: 0.3s;
-    margin: 32px;
-    text-align: justify;
+    color: #828282;
+    transition: 0.4s;
 }
 
 .botao-principal {
@@ -204,15 +219,8 @@ a {
     align-items: center;
     text-align: center;
     margin-top: 140px;
-    margin-left: 16%;
-    margin-right: 16%;
-}
-
-.titulo {
-    font-size: 40px;
-    font-weight: bold;
-    margin-left: 20px;
-    margin-top: 40px;
+    margin-left: 9%;
+    margin-right: 8%;
 }
 
 .corpo_texto {
@@ -229,14 +237,23 @@ footer {
     height: 60px;
     text-align: center;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 100px;
     color: black;
+}
+
+footer a {
+    padding: 20px;
+}
+
+footer a:hover {
+    transition: 0.4s all;
+    font-weight: bold;
 }
 
 /*principal*/
 .titulo_principal {
     margin: 20px;
-    margin-top: 20px;
+    margin-top: 200px;
     margin-right: 140px;
     font-size: 56px;
     display: inline-block;
@@ -249,6 +266,7 @@ footer {
     color: black;
     border: solid 1px black;
     border-radius: 5px;
+    display: inline-flex;
 }
 
 iframe {
@@ -260,14 +278,41 @@ iframe {
 
 .corpo {
     margin: 20px;
-    display: inline-block;
+    display: inline-flex;
 }
 
-.busca-lugar{
+h2 {
+    margin-top: 20px;
+    font-size: 36px;
+    width: 50%;
     background-color: #BF3633;
-    border: solid 1px;
-    border-radius: 8px;
-    width: 360px;
-    height: 40px;
-    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #a52226;
+    margin-left: 20%;
+}
+
+.lista-locais {
+    font-size: 20px;
+    display: list-item;
+    width: 50%;
+    background-color: #e2e2e2;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #999999;
+    list-style-type: none;
+    margin-left: 20%;
+}
+
+.lista-locais a:hover {
+    color: #a52226;
+    font-size: 22px;
+    transition: 0.4s;
+}
+
+.container_lista {
+    display: inline-block;
+    text-align: center;
 }
