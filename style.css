@@ -173,7 +173,7 @@ a {
     border-color: #000000;
     text-align: justify;
     border: 2px solid #000000;
-    margin: 20px;
+    margin: 40px;
     border-radius: 10px;
 }
 
@@ -206,6 +206,7 @@ a {
     text-decoration: none;
     color: white;
     margin-bottom: -440px;
+    text-align: 50%;
 }
 
 .botao-principal:hover {
@@ -315,4 +316,187 @@ h2 {
 .container_lista {
     display: inline-block;
     text-align: center;
+}
+
+/*for mobile phones:*/
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and(min-width: 600px) {
+
+    /*for tablets*/
+    .col-s-1 {
+        width: 8.33%
+    }
+
+    .col-s-2 {
+        width: 16.66%
+    }
+
+    .col-s-3 {
+        width: 25%
+    }
+
+    .col-s-4 {
+        width: 33.33%
+    }
+
+    .col-s-5 {
+        width: 41.66%
+    }
+
+    .col-s-6 {
+        width: 50%
+    }
+
+    .col-s-7 {
+        width: 58.33%
+    }
+
+    .col-s-8 {
+        width: 66.66%
+    }
+
+    .col-s-9 {
+        width: 75%
+    }
+
+    .col-s-10 {
+        width: 83.33%
+    }
+
+    .col-s-11 {
+        width: 91.66%
+    }
+
+    .col-s-12 {
+        width: 100%
+    }
+}
+
+@media only screen and(min-width: 760px) {
+
+    /*for tablets*/
+    .col-s-1 {
+        width: 8.33%
+    }
+
+    .col-s-2 {
+        width: 16.66%
+    }
+
+    .col-s-3 {
+        width: 25%
+    }
+
+    .col-s-4 {
+        width: 33.33%
+    }
+
+    .col-s-5 {
+        width: 41.66%
+    }
+
+    .col-s-6 {
+        width: 50%
+    }
+
+    .col-s-7 {
+        width: 58.33%
+    }
+
+    .col-s-8 {
+        width: 66.66%
+    }
+
+    .col-s-9 {
+        width: 75%
+    }
+
+    .col-s-10 {
+        width: 83.33%
+    }
+
+    .col-s-11 {
+        width: 91.66%
+    }
+
+    .col-s-12 {
+        width: 100%
+    }
+}
+
+/*escola baroni*/
+
+.titulo {
+    font-size: 190%;
+    color: white;
+    margin: 60px 200px;
+}
+
+.botao1 {
+    text-decoration: none;
+    border: none;
+    background-color: rgb(199, 32, 32);
+}
+
+.contato {
+    margin: 70px 155px;
+    color: white;
+}
+
+.local {
+    margin: 70px 55px;
+    color: white;
+}
+
+/* Css Main */
+main {
+    background-color: rgb(199, 32, 32);
+    color: white;
+}
+
+.banner {
+    width: 100%;
+}
+
+.missao {
+    font-size: 20px;
+    text-align: justify;
+    padding: 30px;
+    padding-top: 0;
+}
+
+.missao p {
+    margin-top: 20px;
+}
+
+ul {
+    width: 100%;
+    padding: 10px;
+
+}
+
+ul li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin: 65px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    color: black;
+    margin: 5%;
+    text-align: center;
+}
+.titulo2 {
+    margin: 20px;
+    margin-top: 200px;
+    margin-right: 140px;
+    font-size: 56px;
+    display: inline-block;
+    width: 36%;
+    color: #ddd;
 }
