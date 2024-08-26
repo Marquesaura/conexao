@@ -3,7 +3,10 @@
 body {
     font-family: "Open sans", Arial, sans-serif;
 }
-
+header{
+    background-color: #BF3633;
+    height: 150px;
+}
 /*login*/
 .login-principal {
     background-color: #BF3633;
@@ -74,6 +77,7 @@ button {
 button:hover {
     cursor: pointer;
     background-color: #a52226;
+    transition: 0.4s;
 }
 
 .rodape {
@@ -104,7 +108,8 @@ button:hover {
 
 .logo {
     margin: 20px 0 0 40px;
-    height: 171px;
+    height: 120px;
+    
 }
 
 .login {
@@ -112,10 +117,11 @@ button:hover {
     width: 940px;
     color: #000000;
     font-size: 20px;
-    margin-left: 80%;
+    margin-left: 15%;
     text-decoration: none;
     margin-right: 10px;
-    padding: -20px;
+    margin-top: -80px;
+    margin-bottom: 150px;
 }
 
 .login a:hover {
@@ -133,11 +139,10 @@ a {
 }
 
 /*index*/
-.botao-login {
-    background-color: #BF3633;
-    border-radius: 5px;
-    padding: 15px;
-    color: white;
+.home {
+    height: 25px;
+    text-decoration: underline;
+    color: #a52226;
 }
 
 .principal {
@@ -350,4 +355,74 @@ h2 {
     .col-s-10 {width: 83.33%}
     .col-s-11 {width: 91.66%}
     .col-s-12 {width: 100%}
+}
+/*escola Baroni */
+
+.local{
+    margin: 70px 55px;
+    color: white;
+}
+.missao{
+    background-color: rgb(199, 32, 32);
+    color: white;
+    margin: 20px;
+    border-radius: 15px;
+}
+.banner{
+    width: 100%;
+}
+.sobre{
+    margin: 5%;
+    text-align: center;
+}
+.sobre-ceep{
+    margin: 65px;
+    text-align: center;
+    font-size: 150%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px;
+    color: black;
+}
+.endereço{
+    margin: 10, 25px;
+    color: white;
+    margin-left: 3px;
+    margin-right: 30px;
+}
+.copy{
+    color: grey;
+    margin-left: 300px;
+    margin-top: 2.5%;
+
+}
+.missao p{
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.curso_imagem img{
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    size: 30%;
+}
+.curso_imagem p {
+    font-size: 15px;
+    text-align: center;
+    margin-right: 20px;
+}
+.img_curso{
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+	text-align: center;
+	width: 50%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
 }
