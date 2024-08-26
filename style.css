@@ -1,170 +1,366 @@
+
+
+1 de 127
+conexão
+
+LAURA VITORIA DOS SANTOS MARQUES <laura.santos.marques@escola.pr.gov.br>
+Anexos
+qui., 22 de ago., 14:05 (há 4 dias)
+para MARIA, BARONI
+
+
+ 13 anexos
+  •  Anexos verificados pelo Gmail
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-body{
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    background-color: #E4363B;
+
+body {
+    font-family: "Open sans", Arial, sans-serif;
 }
-header{
-    color: #000;
+
+/*login*/
+.login-principal {
+    background-color: #BF3633;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
+
+.login-container {
+    background-color: white;
+    padding: 70px;
+    border-radius: 8px;
+    width: 400px;
+    border: #000000;
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.form-group {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-color: #000000;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-color: black;
+    border-radius: 50px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #BF3633;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button {
+    align-items: center;
+    text-transform: uppercase;
+    padding: 1rem 1.5em;
+    background: #BF3633;
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+    flex: 3;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #a52226;
+}
+
+.rodape {
+    color: #828282;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.redefinir:hover {
+    cursor: pointer;
+    font-size: 17px;
+    text-decoration: underline #BF3633;
+    transition: 0.4s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin: 20px 0 0 40px;
+    height: 171px;
+}
+
 .login {
     position: relative;
     width: 940px;
+    color: #000000;
     font-size: 20px;
     margin-left: 80%;
+    text-decoration: none;
+    margin-right: 10px;
     padding: -20px;
 }
-a{
-       color: #000000; 
-       text-decoration: none;
-       margin-right: 10px;
-}
+
 .login a:hover {
-    color: #000;
     cursor: pointer;
     font-size: 21px;
-    text-decoration: underline #fff;
-    transition: 0.6s;
+    text-decoration: underline #BF3633;
+    transition: 0.4s;
 }
-.logo{
-    margin: 20px 0  0 40px;
-    height: 171px;  
+
+a {
+    text-decoration: none;
+    color: #000000;
+    text-decoration: none;
+    margin: 5px;
 }
-footer{
+
+/*index*/
+.botao-login {
+    background-color: #BF3633;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+}
+
+.principal {
+    text-align: center;
+    margin-top: 240px;
+}
+
+.principal h1 {
+    font-size: 64px;
+}
+
+.principal p {
+    font-size: 24px;
+    color: #828282;
+    margin: 30px;
+}
+
+.titulo {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.texto {
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.materia_descarte {
+    border-color: #000000;
+    text-align: justify;
+    border: 2px solid #000000;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.cnn {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.sobre_cnn {
+    font-size: 15px;
+    color: #828282;
+    margin-left: 80px;
+    margin-top: -35px;
+}
+
+.texto:hover {
+    color: #828282;
+    transition: 0.4s;
+}
+
+.botao-principal {
+    background-color: #BF3633;
+    border-radius: 7px;
+    padding: 15px;
+    width: 24px;
+    height: 14px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: -440px;
+}
+
+.botao-principal:hover {
+    background-color: #a52226;
+    transition: 0.4s;
+}
+
+.comp_img {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 140px;
+    margin-left: 9%;
+    margin-right: 8%;
+}
+
+.corpo_texto {
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px;
+    line-height: 1.3em;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+footer {
     background-color: #E4363B;
     height: 60px;
     text-align: center;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 100px;
     color: black;
 }
-.imagem{
-    max-width: 100%;
-    height: auto;
-    margin: 30px 0 0 280px;
+
+footer a {
+    padding: 20px;
 }
-.missao{
-    font-size: 20px;
-    margin: 20px -85px 30px 20px;
-    text-align: justify;
-    padding: -20px;
+
+footer a:hover {
+    transition: 0.4s all;
+    font-weight: bold;
 }
-.missao p{
-    margin-top: 20px;
-    line-height: 1.3em;
-}
-ul{
-    background-color: aliceblue;
-    width: 100%;
-    padding: 10px;
-}
-ul li{
+
+/*principal*/
+.titulo_principal {
+    margin: 20px;
+    margin-top: 200px;
+    margin-right: 140px;
+    font-size: 56px;
     display: inline-block;
-	text-align: center;
-	width: 30%;
-	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 30px 20px;
-	box-sizing: border-box;
-	border-radius: 10px;
-    
+    width: 36%;
+    color: #a52226;
 }
-.botao_login {
-    text-decoration: none;
-    font-size: 25px;
-    background-color: black;
-    border-radius: 5px;
-    padding: 15px;
-    position: relative;
-	width: 940px;
-    margin: 2% 2% 87% 87%;
-    color: white;
-}
-/*escola baroni*/
 
-.titulo-principal{
-    font-size: 190%;
-    color: white;
-    margin: 60px 200px;
+.local {
+    height: 2rem;
+    color: black;
+    border: solid 1px black;
+    border-radius: 5px;
+    display: inline-flex;
 }
-.eco{
-    margin: 70px 5px;
-    color: white;
-    background-color: rgb(199, 32, 32);
-    border: none;
-    text-decoration: none;
+
+iframe {
+    width: 45%;
+    height: 480px;
+    margin: 30px;
+    margin-top: 100px;
 }
-a{
-    text-decoration: none;
+
+.corpo {
+    margin: 20px;
+    display: inline-flex;
 }
-.botao1{
-    text-decoration: none;
-    border: none;
-    background-color: rgb(199, 32, 32);
+
+h2 {
+    margin-top: 20px;
+    font-size: 36px;
+    width: 50%;
+    background-color: #BF3633;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #a52226;
+    margin-left: 20%;
 }
-.contato{
-    margin: 70px 155px;
-    color: white;
+
+.lista-locais {
+    font-size: 20px;
+    display: list-item;
+    width: 50%;
+    background-color: #e2e2e2;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #999999;
+    list-style-type: none;
+    margin-left: 20%;
 }
-.local{
-    margin: 70px 55px;
-    color: white;
+
+.lista-locais a:hover {
+    color: #a52226;
+    font-size: 22px;
+    transition: 0.4s;
 }
-/* Css Main */
-main{
-    background-color: rgb(199, 32, 32);
-    color: white;
+
+.container_lista {
+    display: inline-block;
+    text-align: center;
 }
-.banner{
+/*for mobile phones:*/
+[class*="col-"]{
     width: 100%;
 }
-.Sobre{
-    margin: 5%;
-    text-align: center;
-}
-.sobre-ceep{
-    margin: 65px;
-    text-align: center;
-    font-size: 150%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    padding: 20px;
-    color: black;
-}
-.botao{
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    margin: 30px;
-    height: 80px;
-    width: 160px;
-    right: 50%;
-    margin-left: 46%;
-    background-color: rgb(255, 251, 251);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-/* Css Footer */
-footer{
-    background-color: black;
-    margin: 10, 20px;
-    display: flex;
-    padding: 20px;
-}
-.logo2{
-    margin: 5px, 10px;
-    width: 6%;
-    left: 50%;
 
+@media only screen and(min-width: 600px){
+    /*for tablets*/
+    .col-s-1 {width: 8.33%}
+    .col-s-2 {width: 16.66%}
+    .col-s-3 {width: 25%}
+    .col-s-4 {width: 33.33%}
+    .col-s-5 {width: 41.66%}
+    .col-s-6 {width: 50%}
+    .col-s-7 {width: 58.33%}
+    .col-s-8 {width: 66.66%}
+    .col-s-9 {width: 75%}
+    .col-s-10 {width: 83.33%}
+    .col-s-11 {width: 91.66%}
+    .col-s-12 {width: 100%}
 }
-.endereço{
-    margin: 10, 25px;
-    color: white;
-    margin-left: 3px;
-    margin-right: 30px;
-}
-.copy{
-    color: grey;
-    margin-left: 300px;
-    margin-top: 2.5%;
-
+@media only screen and(min-width: 760px){
+    /*for tablets*/
+    .col-s-1 {width: 8.33%}
+    .col-s-2 {width: 16.66%}
+    .col-s-3 {width: 25%}
+    .col-s-4 {width: 33.33%}
+    .col-s-5 {width: 41.66%}
+    .col-s-6 {width: 50%}
+    .col-s-7 {width: 58.33%}
+    .col-s-8 {width: 66.66%}
+    .col-s-9 {width: 75%}
+    .col-s-10 {width: 83.33%}
+    .col-s-11 {width: 91.66%}
+    .col-s-12 {width: 100%}
 }
