@@ -1,83 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    font-family: "Open sans", Arial, sans-serif;
+    font-family:  "Poppins", Arial, sans-serif;
 }
 header{
-    background-color: #BF3633;
-    height: 150px;
-}
-/*login*/
-.login-principal {
-    background-color: #BF3633;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.login-container {
-    background-color: white;
-    padding: 70px;
-    border-radius: 8px;
-    width: 400px;
-    border: #000000;
-}
-
-.login-container h1 {
-    text-align: center;
-    margin-bottom: 60px;
-}
-
-.form-group {
-    margin-bottom: 40px;
-    margin-top: 20px;
-    border-color: #000000;
-}
-
-.form-group label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.form-group input {
-    width: 100%;
-    padding: 10px;
-    border-color: black;
-    border-radius: 50px;
-}
-
-.form-group button {
-    width: 100%;
-    padding: 10px;
-    background-color: #BF3633;
-    color: #000000;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-button {
-    align-items: center;
-    text-transform: uppercase;
-    padding: 1rem 1.5em;
-    background: #BF3633;
-    border: none;
-    color: #ffff;
-    cursor: pointer;
-    flex: 3;
-    border-radius: 10px;
-    font-size: 15px;
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-
-button:hover {
-    cursor: pointer;
     background-color: #a52226;
-    transition: 0.4s;
+    height: 150px;
 }
 
 .rodape {
@@ -127,7 +55,7 @@ button:hover {
 .login a:hover {
     cursor: pointer;
     font-size: 21px;
-    text-decoration: underline #BF3633;
+    text-decoration: underline #000000;
     transition: 0.4s;
 }
 
@@ -238,7 +166,7 @@ a {
 }
 
 footer {
-    background-color: #E4363B;
+    background-color: #a52226;
     height: 60px;
     text-align: center;
     width: 100%;
@@ -246,14 +174,10 @@ footer {
     color: black;
 }
 
-footer a {
+footer p{
     padding: 20px;
 }
 
-footer a:hover {
-    transition: 0.4s all;
-    font-weight: bold;
-}
 
 /*principal*/
 .titulo_principal {
@@ -321,42 +245,11 @@ h2 {
     display: inline-block;
     text-align: center;
 }
-/*for mobile phones:*/
-[class*="col-"]{
-    width: 100%;
-}
 
-@media only screen and(min-width: 600px){
-    /*for tablets*/
-    .col-s-1 {width: 8.33%}
-    .col-s-2 {width: 16.66%}
-    .col-s-3 {width: 25%}
-    .col-s-4 {width: 33.33%}
-    .col-s-5 {width: 41.66%}
-    .col-s-6 {width: 50%}
-    .col-s-7 {width: 58.33%}
-    .col-s-8 {width: 66.66%}
-    .col-s-9 {width: 75%}
-    .col-s-10 {width: 83.33%}
-    .col-s-11 {width: 91.66%}
-    .col-s-12 {width: 100%}
-}
-@media only screen and(min-width: 760px){
-    /*for tablets*/
-    .col-s-1 {width: 8.33%}
-    .col-s-2 {width: 16.66%}
-    .col-s-3 {width: 25%}
-    .col-s-4 {width: 33.33%}
-    .col-s-5 {width: 41.66%}
-    .col-s-6 {width: 50%}
-    .col-s-7 {width: 58.33%}
-    .col-s-8 {width: 66.66%}
-    .col-s-9 {width: 75%}
-    .col-s-10 {width: 83.33%}
-    .col-s-11 {width: 91.66%}
-    .col-s-12 {width: 100%}
-}
 /*escola Baroni */
+.titulo2{
+    text-align: center;
+}
 
 .local{
     margin: 70px 55px;
@@ -402,27 +295,69 @@ h2 {
     padding: 20px;
     border-radius: 10px;
 }
+/*cursos*/
 .curso_imagem img{
     width: 200px;
     height: 150px;
     margin-top: 20px;
-    size: 30%;
+    text-align: center;
 }
 .curso_imagem p {
     font-size: 15px;
     text-align: center;
-    margin-right: 20px;
+    margin: 10px;
 }
 .img_curso{
     text-align: center;
     border-radius: 10px;
     display: inline-block;
 	text-align: center;
-	width: 50%;
+	width: 22%;
 	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 30px 20px;
+	padding: 10px;
 	box-sizing: border-box;
-	border: 2px solid #000000;
-	border-radius: 10px;
+}
+.imagens{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: -35px;
+    margin-bottom: -50px;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+/*for mobile phones:*/
+[class*="col-"]{
+    width: 100%;
+}
+
+@media only screen and(min-width: 600px){
+    /*for tablets*/
+    .col-s-1 {width: 8.33%}
+    .col-s-2 {width: 16.66%}
+    .col-s-3 {width: 25%}
+    .col-s-4 {width: 33.33%}
+    .col-s-5 {width: 41.66%}
+    .col-s-6 {width: 50%}
+    .col-s-7 {width: 58.33%}
+    .col-s-8 {width: 66.66%}
+    .col-s-9 {width: 75%}
+    .col-s-10 {width: 83.33%}
+    .col-s-11 {width: 91.66%}
+    .col-s-12 {width: 100%}
+}
+@media only screen and(min-width: 760px){
+    /*for tablets*/
+    .col-s-1 {width: 8.33%}
+    .col-s-2 {width: 16.66%}
+    .col-s-3 {width: 25%}
+    .col-s-4 {width: 33.33%}
+    .col-s-5 {width: 41.66%}
+    .col-s-6 {width: 50%}
+    .col-s-7 {width: 58.33%}
+    .col-s-8 {width: 66.66%}
+    .col-s-9 {width: 75%}
+    .col-s-10 {width: 83.33%}
+    .col-s-11 {width: 91.66%}
+    .col-s-12 {width: 100%}
 }
