@@ -11,29 +11,8 @@ body {
     background-color: #ddd;
 }
 header{
-    background-color: #a52226;
+    background-color: #BF3633;
     height: 150px;
-}
-
-.rodape {
-    color: #828282;
-    font-size: 13px;
-    margin: 20px;
-}
-
-.redefinir:hover {
-    cursor: pointer;
-    font-size: 17px;
-    text-decoration: underline #BF3633;
-    transition: 0.4s;
-}
-
-
-.container {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .logo {
