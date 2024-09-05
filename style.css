@@ -8,19 +8,6 @@ header{
     height: 150px;
 }
 
-.rodape {
-    color: #828282;
-    font-size: 13px;
-    margin: 20px;
-}
-
-.redefinir:hover {
-    cursor: pointer;
-    font-size: 17px;
-    text-decoration: underline #BF3633;
-    transition: 0.4s;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -37,17 +24,15 @@ header{
 .logo {
     margin: 20px 0 0 40px;
     height: 120px;
-    
+    border-radius: 50%;
 }
 
 .login {
     position: relative;
-    width: 940px;
     color: #000000;
     font-size: 20px;
     margin-left: 15%;
     text-decoration: none;
-    margin-right: 10px;
     margin-top: -80px;
     margin-bottom: 150px;
 }
@@ -71,6 +56,10 @@ a {
     height: 25px;
     text-decoration: underline;
     color: #a52226;
+}
+.home:hover{
+    height: 27px;
+    transition: 0.4s;
 }
 
 .principal {
@@ -163,19 +152,6 @@ a {
     line-height: 1.3em;
     margin-left: 30px;
     margin-right: 30px;
-}
-
-footer {
-    background-color: #BF3633;
-    height: 60px;
-    text-align: center;
-    width: 100%;
-    margin-top: 100px;
-    color: black;
-}
-
-footer p{
-    padding: 20px;
 }
 
 
@@ -360,4 +336,53 @@ h2 {
     .col-s-10 {width: 83.33%}
     .col-s-11 {width: 91.66%}
     .col-s-12 {width: 100%}
+}
+footer {
+    background-color: #BF3633;
+    height: 60px;
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+
+footer p{
+    padding: 20px;
+}
+
+
+.princi_index .home{
+    color: #fff;
+}
+header #proj{
+    border-top: white;
+}
+img{
+    border-radius: 10px;
+}
+.flaticon{
+    font-size: 1.5%;
+    margin-top: -20px;
+    transform: rotate(90deg);
+}
+.rodape{
+    background-color: #d9d9d9;
+    margin-top: 40px;
+    padding: 5vh;
+}
+.rodape img{
+    height: 45px;
+   margin: 10px; 
+}
+.rodape iframe{
+    width: 35%;
+    height: 280px;
+    margin: 10px;
+}
+
+.rodape h4{
+    margin: 10px;
+}
+.criadores{
+    text-align: right;
+    font-size: 20px;
 }
