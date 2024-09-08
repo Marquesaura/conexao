@@ -12,8 +12,12 @@ header{
     margin: 0;
     padding: 0;
     box-sizing: 0;
+    
 }
-
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 0px;
+}
 .container {
     height: 100vh;
     display: flex;
@@ -52,6 +56,7 @@ a {
 }
 
 /*index*/
+
 .home {
     height: 25px;
     text-decoration: underline;
@@ -156,6 +161,9 @@ a {
 
 
 /*principal*/
+.ecot{
+    color: white;
+}
 .titulo_principal {
     margin: 20px;
     margin-top: 200px;
@@ -265,11 +273,15 @@ h2 {
     margin-top: 2.5%;
 
 }
+.missao{
+    margin: 0%;
+}
 .missao p{
     font-size: 20px;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
+    text-align: center;
 }
 /*cursos*/
 .curso_imagem img{
@@ -300,62 +312,19 @@ h2 {
     margin: -35px;
     margin-bottom: -50px;
     margin-left: -50px;
-    margin-right: -50px;
-}
-/*for mobile phones:*/
-[class*="col-"]{
-    width: 100%;
+    margin-right: 0px;
 }
 
-@media only screen and(min-width: 600px){
-    /*for tablets*/
-    .col-s-1 {width: 8.33%}
-    .col-s-2 {width: 16.66%}
-    .col-s-3 {width: 25%}
-    .col-s-4 {width: 33.33%}
-    .col-s-5 {width: 41.66%}
-    .col-s-6 {width: 50%}
-    .col-s-7 {width: 58.33%}
-    .col-s-8 {width: 66.66%}
-    .col-s-9 {width: 75%}
-    .col-s-10 {width: 83.33%}
-    .col-s-11 {width: 91.66%}
-    .col-s-12 {width: 100%}
-}
-@media only screen and(min-width: 760px){
-    /*for tablets*/
-    .col-s-1 {width: 8.33%}
-    .col-s-2 {width: 16.66%}
-    .col-s-3 {width: 25%}
-    .col-s-4 {width: 33.33%}
-    .col-s-5 {width: 41.66%}
-    .col-s-6 {width: 50%}
-    .col-s-7 {width: 58.33%}
-    .col-s-8 {width: 66.66%}
-    .col-s-9 {width: 75%}
-    .col-s-10 {width: 83.33%}
-    .col-s-11 {width: 91.66%}
-    .col-s-12 {width: 100%}
-}
+
+
 footer {
     background-color: #BF3633;
-    height: 60px;
-    text-align: center;
+    max-height: 220px;
     width: 100%;
     color: black;
 }
 
-footer p{
-    padding: 20px;
-}
 
-
-.princi_index .home{
-    color: #fff;
-}
-header #proj{
-    border-top: white;
-}
 img{
     border-radius: 10px;
 }
@@ -367,22 +336,66 @@ img{
 .rodape{
     background-color: #d9d9d9;
     margin-top: 40px;
-    padding: 5vh;
+    padding: 2vh;
+    text-align: center;
 }
 .rodape img{
     height: 45px;
    margin: 10px; 
 }
 .rodape iframe{
+    justify-content: right;
     width: 35%;
     height: 280px;
     margin: 10px;
 }
-
+h5{
+    font-size: 150%;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+}
+footer p, h6{
+    margin: 0, 990;
+    font-size: 100%;
+    text-align: center;
+    background-color: #BF3633;
+    
+}
+h6{
+    padding: 20px;
+}
 .rodape h4{
     margin: 10px;
 }
-.criadores{
-    text-align: right;
-    font-size: 20px;
+footer .log-ceep{
+    margin: 0 0 0 40px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+@media screen and (max-width: 768px){
+    /*for tablets*/
+    .logo{
+        height: 50%;
+        padding-left: -10px;
+    }
+    .img_curso{
+        width: 80%;
+    }
+    .login{
+        text-align: right;
+        padding: 20px;
+        padding-top: 35px;
+    }
+    .rodape iframe{
+        width: 70%;
+        height: 20%;
+    }
+    ul{
+        list-style-type: none;
+        padding: 30px;
+        text-align: justify;
+    }
+
 }
