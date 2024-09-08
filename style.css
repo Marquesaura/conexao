@@ -377,11 +377,11 @@ footer .log-ceep{
 @media screen and (max-width: 768px){
     /*for tablets*/
     .logo{
-        height: 50%;
-        padding-left: -10px;
+        height: 55%;
+        margin-left: 20px;
     }
     .img_curso{
-        width: 80%;
+        width: 90%;
     }
     .login{
         text-align: right;
@@ -394,8 +394,14 @@ footer .log-ceep{
     }
     ul{
         list-style-type: none;
-        padding: 30px;
+        margin: 10px;
+        margin-left: -20px;
         text-align: justify;
+    }
+    .curso_imagem{
+        align-items: center;
+        width: 90%;
+        padding-left: 70px;
     }
 
 }
