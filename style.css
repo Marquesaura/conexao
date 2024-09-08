@@ -403,5 +403,44 @@ footer .log-ceep{
         width: 90%;
         padding-left: 70px;
     }
+    .principal h1 {
+        font-size: 40px;
+        margin-top: -140px;
+        padding: -10px;
+    }
+    .titulo_principal{
+        font-size: 40px;
+        margin-top: 40px;
+        text-align: center;
+        line-height: 45px;
+        width: 100%;
+        margin-left: 40px;
+    }
+    .comp_img{
+        width: 90%;
+        align-items: center;
+        margin: 20px;
+        margin-top: 40px;
+    }
+    .materia_descarte{
+        margin: 10px;
+        text-align: justify;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+    .corpo iframe{
+        width: 80%;
+        height: 60%;
+        align-items: center;
+        display: contents;
+    }
+    .lista-locais, h2{
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        width: 80%;
+        
+    }
 
 }
