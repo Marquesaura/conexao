@@ -318,7 +318,9 @@ h2 {
     margin-right: 0px;
 }
 
-
+ul{
+    list-style-type: none;
+}
 
 footer {
     background-color: #BF3633;
