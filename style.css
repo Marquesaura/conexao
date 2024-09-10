@@ -241,10 +241,8 @@ h2 {
 }
 .missao{
     background-color: rgb(199, 32, 32);
-    color: white;
     margin: 40px;
     border-radius: 15px;
-    margin: 0%;
 
 }
 .banner{
@@ -281,10 +279,9 @@ h2 {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+    color: white;
 }
-.missao .banner{
-    margin: 20px;
-}
+
 /*cursos*/
 .curso_imagem img{
     width: 200px;
