@@ -243,6 +243,7 @@ h2 {
     background-color: rgb(199, 32, 32);
     margin: 40px;
     border-radius: 15px;
+    align-items: center;
     
 }
 .banner{
