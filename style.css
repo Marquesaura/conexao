@@ -314,7 +314,9 @@ h2 {
     margin-left: -50px;
     margin-right: 0px;
 }
-
+ ul li{ 
+    list-style-type: none;
+ }
 
 
 footer {
