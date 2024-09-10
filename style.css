@@ -244,7 +244,6 @@ h2 {
     color: white;
     margin: 40px;
     border-radius: 15px;
-    margin-right: 40px;
 
 }
 .banner{
@@ -284,6 +283,9 @@ h2 {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+}
+.missao .banner{
+    margin: 20px;
 }
 /*cursos*/
 .curso_imagem img{
@@ -327,7 +329,6 @@ footer {
     width: 100%;
     color: black;
 }
-
 
 img{
     border-radius: 10px;
@@ -378,6 +379,7 @@ footer .log-ceep{
     border-radius: 50%;
     margin-top: 20px;
 }
+
 @media screen and (max-width: 768px){
     /*for tablets*/
     .logo{
