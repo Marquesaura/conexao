@@ -243,23 +243,10 @@ h2 {
     background-color: rgb(199, 32, 32);
     margin: 40px;
     border-radius: 15px;
-
+    
 }
 .banner{
     width: 100%;
-}
-.sobre{
-    margin: 5%;
-    text-align: center;
-}
-.sobre-ceep{
-    margin: 65px;
-    text-align: center;
-    font-size: 150%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    padding: 20px;
-    color: black;
 }
 .endereço{
     margin: 10, 25px;
@@ -317,6 +304,8 @@ h2 {
 
 ul{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 footer {
