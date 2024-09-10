@@ -242,12 +242,13 @@ h2 {
 .missao{
     background-color: rgb(199, 32, 32);
     color: white;
-    margin: 20px;
+    margin: 40px;
     border-radius: 15px;
+    margin-right: 40px;
+
 }
 .banner{
     width: 100%;
-    margin: 20px;
 }
 .sobre{
     margin: 5%;
