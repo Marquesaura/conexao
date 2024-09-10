@@ -244,6 +244,7 @@ h2 {
     color: white;
     margin: 40px;
     border-radius: 15px;
+    margin: 0%;
 
 }
 .banner{
@@ -274,9 +275,6 @@ h2 {
     margin-top: 2.5%;
 
 }
-.missao{
-    margin: 0%;
-}
 .missao p{
     font-size: 20px;
     margin: 20px;
@@ -298,6 +296,7 @@ h2 {
     font-size: 15px;
     text-align: center;
     margin: 10px;
+    background-color: #ffffff;
 }
 .img_curso{
     text-align: center;
