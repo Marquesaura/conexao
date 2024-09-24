@@ -275,8 +275,8 @@ h2 {
 
 /*cursos*/
 .curso_imagem img{
-    width: 200px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin-top: 20px;
     text-align: center;
 }
@@ -291,7 +291,7 @@ h2 {
     border-radius: 10px;
     display: inline-block;
 	text-align: center;
-	width: 22%;
+	width: 18%;
 	vertical-align: top;
 	padding: 10px;
 	box-sizing: border-box;
@@ -344,17 +344,30 @@ img{
     margin: 10px;
 }
 h5{
-    font-size: 150%;
+    font-size: 1,25rem;
     text-align: center;
     padding-top: 20px;
     position: relative;
+    background-color: #BF3633;
+    padding-left: -20px;
+    padding: 0%;
+   
 }
 footer p, h6{
-    margin: 0, 990;
     font-size: 100%;
     text-align: center;
     background-color: #BF3633;
+    margin-bottom: 0;
     
+}
+.alunos{
+    width: 80%;
+    background-color: #BF3633;
+    margin-left: 10%;
+}
+
+footer {
+    background-color: #BF3633;
 }
 h6{
     padding: 20px;
@@ -362,11 +375,13 @@ h6{
 .rodape h4{
     margin: 10px;
 }
-footer .log-ceep{
-    margin: 0 0 0 40px;
-    height: 120px;
-    border-radius: 50%;
-    margin-top: 20px;
+
+footer img{
+    width: 150px;
+    background-color: #BF3633;
+    margin: 40px;
+    margin-bottom: -150px;
+    
 }
 
 @media screen and (max-width: 768px){
