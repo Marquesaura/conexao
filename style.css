@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    font-family:  "Poppins", Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
 }
-header{
+
+header {
     background-color: #BF3633;
     height: 150px;
 }
@@ -12,12 +13,14 @@ header{
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    
+
 }
+
 /* Largura da barra de rolagem */
 ::-webkit-scrollbar {
     width: 0px;
 }
+
 .container {
     height: 100vh;
     display: flex;
@@ -63,7 +66,8 @@ a {
     text-decoration: underline;
     color: #a52226;
 }
-.home:hover{
+
+.home:hover {
     height: 27px;
     transition: 0.4s;
 }
@@ -162,9 +166,10 @@ a {
 
 
 /*principal*/
-.ecot{
+.ecot {
     color: white;
 }
+
 .titulo_principal {
     margin: 20px;
     margin-top: 200px;
@@ -232,38 +237,43 @@ h2 {
 }
 
 /*escola Baroni */
-.titulo2{
+.titulo2 {
     text-align: center;
     color: #ffffff;
 }
 
-.local{
+.local {
     margin: 70px 55px;
     color: white;
 }
-.missao{
+
+.missao {
     background-color: rgb(199, 32, 32);
     margin: 40px;
     border-radius: 15px;
     align-items: center;
-    
+
 }
-.banner{
+
+.banner {
     width: 100%;
 }
-.endereço{
+
+.endereço {
     margin: 10, 25px;
     color: white;
     margin-left: 3px;
     margin-right: 30px;
 }
-.copy{
+
+.copy {
     color: grey;
     margin-left: 300px;
     margin-top: 2.5%;
 
 }
-.missao p{
+
+.missao p {
     font-size: 20px;
     margin: 20px;
     padding: 20px;
@@ -274,29 +284,32 @@ h2 {
 
 
 /*cursos*/
-.curso_imagem img{
+.curso_imagem img {
     width: 100px;
     height: 100px;
     margin-top: 20px;
     text-align: center;
 }
+
 .curso_imagem p {
     font-size: 15px;
     text-align: center;
     margin: 10px;
     background-color: #ffffff;
 }
-.img_curso{
+
+.img_curso {
     text-align: center;
     border-radius: 10px;
     display: inline-block;
-	text-align: center;
-	width: 18%;
-	vertical-align: top;
-	padding: 10px;
-	box-sizing: border-box;
+    text-align: center;
+    width: 18%;
+    vertical-align: top;
+    padding: 10px;
+    box-sizing: border-box;
 }
-.imagens{
+
+.imagens {
     align-items: center;
     text-align: center;
     padding: 10px;
@@ -306,9 +319,9 @@ h2 {
     margin-right: 0px;
 }
 
-ul{
+ul {
     list-style-type: none;
-    margin:auto;
+    margin: auto;
     padding: auto;
 }
 
@@ -319,48 +332,56 @@ footer {
     color: black;
 }
 
-img{
+img {
     border-radius: 10px;
 }
-.flaticon{
+
+.flaticon {
     font-size: 1.5%;
     margin-top: -20px;
     transform: rotate(90deg);
 }
-.rodape{
+
+.rodape {
     background-color: #d9d9d9;
     margin-top: 40px;
     padding: 2vh;
     text-align: center;
 }
-.rodape img{
+
+.rodape img {
     height: 45px;
-   margin: 10px; 
+    margin: 10px;
 }
-.rodape iframe{
+
+.rodape iframe {
     justify-content: right;
     width: 35%;
     height: 280px;
     margin: 10px;
 }
-h5{
-    font-size: 1,25rem;
+
+h5 {
+    font-size: 1, 25rem;
     text-align: center;
     padding-top: 20px;
     position: relative;
     background-color: #BF3633;
     padding-left: -20px;
     padding: 0%;
-   
+
 }
-footer p, h6{
+
+footer p,
+h6 {
     font-size: 100%;
     text-align: center;
     background-color: #BF3633;
     margin-bottom: 0;
-    
+
 }
-.alunos{
+
+.alunos {
     width: 80%;
     background-color: #BF3633;
     margin-left: 10%;
@@ -369,62 +390,89 @@ footer p, h6{
 footer {
     background-color: #BF3633;
 }
-h6{
+
+h6 {
     padding: 20px;
 }
-.rodape h4{
+
+.rodape h4 {
     margin: 10px;
 }
 
-footer img{
+footer img {
     width: 150px;
     background-color: #BF3633;
     margin: 40px;
     margin-bottom: -150px;
-    
-}
-.img_curso{
-  width: 80%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
+
 }
 
-@media screen and (max-width: 768px){
+.img_curso {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+#texto_caixa {
+    display: none;
+}
+
+.img_curso:hover {
+    cursor: pointer;
+}
+#mais{
+    display: none;
+}
+#btnLeiaMais{
+    border: none;
+    color: #BF3633;
+    background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+
     /*for tablets*/
-    .logo{
+    .logo {
         height: 55%;
         margin-left: 20px;
     }
-    .img_curso{
+
+    .img_curso {
         width: 90%;
     }
-    .login{
+
+    .login {
         text-align: right;
         padding: 20px;
         padding-top: 35px;
     }
-    .rodape iframe{
+
+    .rodape iframe {
         width: 70%;
         height: 20%;
     }
-    ul{
+
+    ul {
         list-style-type: none;
         margin: 10px;
         margin-left: -20px;
         text-align: justify;
     }
-    .curso_imagem{
+
+    .curso_imagem {
         align-items: center;
         width: 90%;
         padding-left: 70px;
     }
+
     .principal h1 {
         font-size: 40px;
         margin-top: -140px;
         padding: -10px;
     }
-    .titulo_principal{
+
+    .titulo_principal {
         font-size: 40px;
         margin-top: 40px;
         text-align: center;
@@ -432,33 +480,40 @@ footer img{
         width: 100%;
         margin-left: 40px;
     }
-    .comp_img{
+
+    .comp_img {
         width: 90%;
         align-items: center;
         margin: 20px;
         margin-top: 40px;
     }
-    .materia_descarte{
+
+    .materia_descarte {
         margin: 10px;
         text-align: justify;
     }
-    .titulo{
+
+    .titulo {
         font-size: 30px;
     }
-    .corpo iframe{
+
+    .corpo iframe {
         width: 80%;
         height: 60%;
         align-items: center;
         display: contents;
     }
-    .lista-locais, h2{
+
+    .lista-locais,
+    h2 {
         margin-left: 10px;
         margin-right: 10px;
         text-align: center;
         width: 80%;
-        
+
     }
-    .corpo iframe{
+
+    .corpo iframe {
         align-items: center;
         margin-left: 30px;
     }
