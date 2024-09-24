@@ -10,6 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script>
     <title> CEEP- Centro Estadual de Educação Profissional</title>
     <link rel="stylesheet" href="style.css">
 
@@ -25,77 +26,125 @@
         </div>
     </header>
     <ul>
-            <main class="missao">
-                <img class="banner" src="banner.jpg" alt="banner">
-                <h1 class="titulo2">O que é o CEEP?</h1>
+        <main class="missao">
+            <img class="banner" src="banner.jpg" alt="banner">
+            <h1 class="titulo2">O que é o CEEP?</h1>
 
-                <p> O CEEP oferece um modelo de aprendizagem com foco no desenvolvimento de competências e
-                    habilidades técnicas para suprir a demanda do mercado de trabalho. São oferecidos cursos para
-                    trabalhadores
-                    jovens que estão dando entrada no ensino médio e adultos com estudos regulares concluídos, com o
-                    objetivo de
-                    qualificação e requalificação profissional, em busca de um futuro brilhante na área de trabalho.
-                    Fundado em 2015, nossa escola tem sido símbolo de
-                    aprendizado e crescimento intelectual e profissional em
-                    Cianorte e região.
-                    A equipe CEEP acredita que a educação é a chave do conhecimento para o sucesso, por isso entregam um
-                    amplo
-                    ambiente em busca de um aprendizado eficiente, contando com diversos cursos profissionalizantes,
-                    disposição
-                    de laboratórios, anfiteatro com palestras que edificam a área profissional e educacional dos alunos.
-                    Nosso objetivo é entregar uma educação de qualidade e formar jovens e adultos que usem todo o seu
-                    potencial.
-                </p>
-       </ul>
+            <p> O CEEP oferece um modelo de aprendizagem com foco no desenvolvimento de competências e
+                habilidades técnicas para suprir a demanda do mercado de trabalho. São oferecidos cursos para
+                trabalhadores
+                jovens que estão dando entrada no ensino médio e adultos com estudos regulares concluídos, com o
+                objetivo de
+                qualificação e requalificação profissional, em busca de um futuro brilhante na área de trabalho.
+                Fundado em 2015, nossa escola tem sido símbolo de
+                aprendizado e crescimento intelectual e profissional em
+                Cianorte e região.
+                A equipe CEEP acredita que a educação é a chave do conhecimento para o sucesso, por isso entregam um
+                amplo
+                ambiente em busca de um aprendizado eficiente, contando com diversos cursos profissionalizantes,
+                disposição
+                de laboratórios, anfiteatro com palestras que edificam a área profissional e educacional dos alunos.
+                Nosso objetivo é entregar uma educação de qualidade e formar jovens e adultos que usem todo o seu
+                potencial.
+            </p>
+    </ul>
 
     <main class="curso_imagem">
         <div class="imagens">
             <div class="img_curso">
                 <img src="agronegocio.png" alt="agronegocio">
                 <h3>Agronegócio</h3>
-                <p>O curso </p> <!--caixa de texto que abre para baixo-->
-                <p>Curso disponível para ensino médio integrado. </p>
+                <p>Curso disponível para ensino médio integrado. <span id="pontos"></span> <span id="mais">Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Totam, quos beatae voluptate, sapiente quae
+                        iste perferendis architecto voluptatem ducimus tenetur eius rerum. Adipisci reiciendis facilis
+                        aperiam tempora eius corporis consectetur.</span></p>
+
+                <button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
+            </div>
+
+            <div class="img_curso">
+                <img src="farmacia.png" alt="farmacia">
+                <h3>Farmácia</h3>
+                <p>Curso disponível para ensino médio integrado.<span id="pontos"></span> <span id="mais">Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Totam, quos beatae voluptate, sapiente quae
+                        iste perferendis architecto voluptatem ducimus tenetur eius rerum. Adipisci reiciendis facilis
+                        aperiam tempora eius corporis consectetur.</span></p>
+
+                <button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
+
+            </div>
+            <div class="img_curso"><img src="docentes.png" alt="docente">
+                <h3>Formação de Docentes</h3>
+                <p>Curso disponível para ensino médio integrado <span id="pontos"></span> <span id="mais">Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Totam, quos beatae voluptate, sapiente quae
+                        iste perferendis architecto voluptatem ducimus tenetur eius rerum. Adipisci reiciendis facilis
+                        aperiam tempora eius corporis consectetur.</span></p>
+
+                <button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
+            </div>
+            <div class="img_curso"> <img src="marketing.png" alt="marketing">
+                <h3>Marketing</h3>
+                <p>Curso disponível para ensino médio integrado.<span id="pontos"></span> <span id="mais">Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Totam, quos beatae voluptate, sapiente quae
+                        iste perferendis architecto voluptatem ducimus tenetur eius rerum. Adipisci reiciendis facilis
+                        aperiam tempora eius corporis consectetur.</span></p>
+
+                <button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
             </div>
             <div class="img_curso">
                 <img src="analise.png" alt="desenvolvimento">
                 <h3>Desenvolvimento de sistemas</h3>
-                <p>Curso disponível para ensino médio integrado e subsequente</p>
-            </div>
-            <div class="img_curso">
-                <img src="farmacia.png" alt="farmacia">
-                <h3>Farmácia</h3>
-                <p>Curso disponível para ensino médio integrado.</p>
-            </div>
+                <p>Curso disponível para ensino médio integrado e subsequente <span id="pontos"></span> <span
+                        id="mais">Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Totam, quos beatae voluptate, sapiente quae
+                        iste perferendis architecto voluptatem ducimus tenetur eius rerum. Adipisci reiciendis facilis
+                        aperiam tempora eius corporis consectetur.</span></p>
 
+                <button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
+            </div>
             <div class="img_curso">
                 <img src="quimica.png" alt="quimica">
                 <h3>Química</h3>
-                <p>Curso disponível para ensino médio integrado e subsequente</p>
+                <p>Curso disponível para ensino médio integrado e subsequente <span id="pontos"></span> <span
+                        id="mais">Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Totam, quos beatae voluptate, sapiente quae
+                        iste perferendis architecto voluptatem ducimus tenetur eius rerum. Adipisci reiciendis facilis
+                        aperiam tempora eius corporis consectetur.</span></p>
+
+                <button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
             </div>
 
-            <div class="img_curso"><img src="docentes.png" alt="docente">
-                <h3>Formação de Docentes</h3>
-                <p>Curso disponível para ensino médio integrado </p>
-            </div>
-            <div class="img_curso"> <img src="marketing.png" alt="marketing">
-                <h3>Marketing</h3>
-                <p>Curso disponível para ensino médio integrado.</p>
-            </div>
             <div class="img_curso"><img src="vestuario.png" alt="vestuario">
                 <h3>Vestuário</h3>
-                <p>Curso disponível para ensino médio integrado e subsequente.</p>
+                <p>Curso disponível para ensino médio integrado e subsequente.<span id="pontos"></span> <span
+                        id="mais">Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Totam, quos beatae voluptate, sapiente quae
+                        iste perferendis architecto voluptatem ducimus tenetur eius rerum. Adipisci reiciendis facilis
+                        aperiam tempora eius corporis consectetur.</span></p>
+
+                <button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
             </div>
 
             <div class="img_curso">
                 <img src="seguranca.png" alt="seguranca no trabalho">
-                <h3>Segurança no Trabalho </h3> 
-                <p>Curso disponível para ensino subsequente</p>
+                <h3>Segurança no Trabalho </h3>
+                <p>Curso disponível para ensino subsequente <span id="pontos"></span> <span id="mais">Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Totam, quos beatae voluptate, sapiente quae
+                        iste perferendis architecto voluptatem ducimus tenetur eius rerum. Adipisci reiciendis facilis
+                        aperiam tempora eius corporis consectetur.</span></p>
+
+                <button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
             </div>
 
             <div class="img_curso">
                 <img src="rh.png" alt="rh">
                 <h3>Recursos Humanos</h3>
-                <p>Curso disponível para ensino subsequente</p>
+                <p>Curso disponível para ensino subsequente <span id="pontos"></span> <span id="mais">Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Totam, quos beatae voluptate, sapiente quae
+                        iste perferendis architecto voluptatem ducimus tenetur eius rerum. Adipisci reiciendis facilis
+                        aperiam tempora eius corporis consectetur.</span></p>
+
+                <button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
             </div>
 
     </main>
@@ -139,14 +188,14 @@
 
     <footer>
         <img src="1.png" alt="brasao ceep">
-        
-        <div class="alunos">
-        <h5> Alunos</h5>
 
-        <p>Baroni Rugeri <br>
-        Laura Marques <br>
-        Maria Marques</p>
-    </div>
+        <div class="alunos">
+            <h5> Alunos</h5>
+
+            <p>Baroni Rugeri <br>
+                Laura Marques <br>
+                Maria Marques</p>
+        </div>
         <h6>&copy; Centro Estadual de Educação Profissional Cianorte - CEEP 2024</h6>
 
     </footer>
