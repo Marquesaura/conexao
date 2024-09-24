@@ -349,7 +349,13 @@ img {
     text-align: center;
 }
 
-.rodape img {
+.rodape img, span img {
+    height: 45px;
+    margin: 10px;
+}
+
+.img_curso span img{
+    width: 45px;
     height: 45px;
     margin: 10px;
 }
@@ -418,7 +424,7 @@ footer img {
     display: none;
 }
 
-.img_curso:hover {
+button:hover {
     cursor: pointer;
 }
 #mais{
@@ -516,5 +522,10 @@ footer img {
     .corpo iframe {
         align-items: center;
         margin-left: 30px;
+    }
+    footer img{
+        width: 100px;
+        margin-left: 10px;
+        margin-top: 0px;
     }
 }
