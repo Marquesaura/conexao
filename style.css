@@ -430,7 +430,7 @@ button:hover {
 #mais{
     display: none;
 }
-#btnLeiaMais{
+.btnLeiaMais{
     border: none;
     color: #BF3633;
     background-color: white;
