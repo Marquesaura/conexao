@@ -210,6 +210,7 @@ h2 {
     text-align: center;
     border: 2px solid #a52226;
     margin-left: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .lista-locais {
@@ -223,6 +224,7 @@ h2 {
     border: 2px solid #999999;
     list-style-type: none;
     margin-left: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .lista-locais a:hover {
@@ -234,6 +236,7 @@ h2 {
 .container_lista {
     display: inline-block;
     text-align: center;
+    
 }
 
 /*escola Baroni */
@@ -430,10 +433,17 @@ button:hover {
 #mais{
     display: none;
 }
+#lerMais{
+    display: none;
+}
 .btnLeiaMais{
     border: none;
     color: #BF3633;
     background-color: white;
+}
+.LeiaMais{
+    color: white;
+    border: none;
 }
 
 @media screen and (max-width: 768px) {
