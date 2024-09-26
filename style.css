@@ -430,6 +430,9 @@ footer img {
 button:hover {
     cursor: pointer;
 }
+#mais-farm{
+    display: none;
+}
 #mais{
     display: none;
 }
@@ -444,6 +447,10 @@ button:hover {
 .LeiaMais{
     color: white;
     border: none;
+    background-color: rgb(199, 32, 32);
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 45%;
 }
 
 @media screen and (max-width: 768px) {
