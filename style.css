@@ -7,7 +7,7 @@ body {
 header {
     background-color: #BF3633;
     height: 150px;
-    
+
 }
 
 * {
@@ -45,7 +45,8 @@ header {
     margin-bottom: 150px;
 }
 
-.login a:hover, .login p:hover {
+.login a:hover,
+.login p:hover {
     cursor: pointer;
     font-size: 21px;
     text-decoration: underline #000000;
@@ -197,7 +198,7 @@ summary {
     display: inline-flex;
 }
 
-iframe {
+.mapa {
     width: 45%;
     height: 480px;
     margin: 30px;
@@ -245,7 +246,7 @@ h2 {
 .container_lista {
     display: inline-block;
     text-align: center;
-    
+
 }
 
 /*escola Baroni */
@@ -361,12 +362,13 @@ img {
     text-align: center;
 }
 
-.rodape img, span img {
+.rodape img,
+span img {
     height: 45px;
     margin: 10px;
 }
 
-.img_curso span img{
+.img_curso span img {
     width: 45px;
     height: 45px;
     margin: 10px;
@@ -432,7 +434,17 @@ footer img {
     margin-bottom: 25px;
 }
 
-#texto_caixa, #mais, #mais-farm , #mais-doc, #mais-mark, #mais-ads,  #mais-qui, #mais-ves, #mais-seg, #mais-rh, #lerMais{
+#texto_caixa,
+#mais,
+#mais-farm,
+#mais-doc,
+#mais-mark,
+#mais-ads,
+#mais-qui,
+#mais-ves,
+#mais-seg,
+#mais-rh,
+#lerMais {
     display: none;
 }
 
@@ -440,12 +452,13 @@ button:hover {
     cursor: pointer;
 }
 
-.btnLeiaMais{
+.btnLeiaMais {
     border: none;
     color: #BF3633;
     background-color: white;
 }
-.LeiaMais{
+
+.LeiaMais {
     color: black;
     border: none;
     background-color: rgb(199, 32, 32);
@@ -453,12 +466,15 @@ button:hover {
     margin-bottom: 20px;
     margin-left: 45%;
 }
-summary a{
-        background-color: #ffffff;
-    }
+
+summary a {
+    background-color: #ffffff;
+}
+
 @media screen and (max-width: 768px) {
 
     /*for tablets*/
+
     .logo {
         height: 55%;
         margin-left: 20px;
@@ -525,12 +541,6 @@ summary a{
         font-size: 30px;
     }
 
-    .corpo iframe {
-        width: 80%;
-        height: 60%;
-        align-items: center;
-        display: contents;
-    }
 
     .lista-locais,
     h2 {
@@ -541,35 +551,54 @@ summary a{
 
     }
 
-    .corpo iframe {
-        align-items: center;
-        margin-left: 30px;
-    }
-    footer img{
+    .brasao {
         width: 100px;
         margin-left: 10px;
         margin-top: 0px;
+        margin-bottom: -100px;
     }
-    .missao p{
+
+    .missao p {
         font-size: 15px;
     }
-    .missao{
+
+    .missao {
         margin: 30px;
         margin-left: 50px;
     }
-    footer img{
+
+    footer img {
         width: 80px;
     }
-    .home{
+
+    .home {
         margin-right: -70px;
         margin-top: 50px;
         padding: -20px;
     }
 
-    details{
+    details {
         margin-right: 0px;
         margin-top: -95px;
     }
-    
+
+    .alunos {
+        margin-left: 180px;
+        width: 40%;
+    }
+
+    .titulo_principal {
+        width: 30px;
+        margin-left: -10px;
+        font-size: 20px;
+    }
+
+    .mapa {
+        width: 100%;
+        height: 10%;
+        align-items: center;
+        display: contents;
+        margin-left: -100px;
+    }
 
 }
