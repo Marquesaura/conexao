@@ -423,22 +423,14 @@ footer img {
     margin-bottom: 25px;
 }
 
-#texto_caixa {
+#texto_caixa, #mais-farm , #mais-ads, #mais-rec, #mais-vest, #mais, #mais-mark, #mais-qui, #mais-rh, #lerMais{
     display: none;
 }
 
 button:hover {
     cursor: pointer;
 }
-#mais-farm{
-    display: none;
-}
-#mais{
-    display: none;
-}
-#lerMais{
-    display: none;
-}
+
 .btnLeiaMais{
     border: none;
     color: #BF3633;
