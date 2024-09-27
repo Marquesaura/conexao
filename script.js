@@ -145,7 +145,7 @@ function leiaMaisCorpo() {
 
     var ponto = document.getElementById("ponto");
     var lerMais = document.getElementById("lerMais");
-    var LeiaMais = document.getElementById("btnLeiaMais");
+    var LeiaMais = document.getElementById("LeiaMais");
 
     if (ponto.style.display === "none") {
         ponto.style.display = "inline";
