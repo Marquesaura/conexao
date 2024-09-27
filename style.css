@@ -7,6 +7,7 @@ body {
 header {
     background-color: #BF3633;
     height: 150px;
+    
 }
 
 * {
@@ -44,7 +45,7 @@ header {
     margin-bottom: 150px;
 }
 
-.login a:hover {
+.login a:hover, .login p:hover {
     cursor: pointer;
     font-size: 21px;
     text-decoration: underline #000000;
@@ -57,6 +58,14 @@ a {
     color: #000000;
     text-decoration: none;
     margin: 5px;
+}
+
+summary {
+    text-decoration: none;
+    color: #000000;
+    text-decoration: none;
+    margin-top: -45px;
+    margin-left: 135px;
 }
 
 /*index*/
@@ -423,7 +432,7 @@ footer img {
     margin-bottom: 25px;
 }
 
-#texto_caixa, #mais-farm , #mais-ads, #mais-rec, #mais-vest, #mais, #mais-mark, #mais-qui, #mais-rh, #lerMais{
+#texto_caixa, #mais, #mais-farm , #mais-doc, #mais-mark, #mais-ads,  #mais-qui, #mais-ves, #mais-seg, #mais-rh, #lerMais{
     display: none;
 }
 
@@ -437,14 +446,16 @@ button:hover {
     background-color: white;
 }
 .LeiaMais{
-    color: white;
+    color: black;
     border: none;
     background-color: rgb(199, 32, 32);
     align-items: center;
     margin-bottom: 20px;
     margin-left: 45%;
 }
-
+summary a{
+        background-color: #ffffff;
+    }
 @media screen and (max-width: 768px) {
 
     /*for tablets*/
@@ -461,6 +472,7 @@ button:hover {
         text-align: right;
         padding: 20px;
         padding-top: 35px;
+        font-size: 17px;
     }
 
     .rodape iframe {
@@ -471,8 +483,9 @@ button:hover {
     ul {
         list-style-type: none;
         margin: 10px;
-        margin-left: -20px;
+        margin-left: -25px;
         text-align: justify;
+        padding: 0px;
     }
 
     .curso_imagem {
@@ -537,4 +550,26 @@ button:hover {
         margin-left: 10px;
         margin-top: 0px;
     }
+    .missao p{
+        font-size: 15px;
+    }
+    .missao{
+        margin: 30px;
+        margin-left: 50px;
+    }
+    footer img{
+        width: 80px;
+    }
+    .home{
+        margin-right: -70px;
+        margin-top: 50px;
+        padding: -20px;
+    }
+
+    details{
+        margin-right: 0px;
+        margin-top: -95px;
+    }
+    
+
 }
