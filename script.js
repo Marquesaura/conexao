@@ -29,6 +29,118 @@ function leiaMais1() {
         btnLeiaMais1.innerHTML = "Voltar";
     }
 }
+function leiaMais2() {
+    var pontos2 = document.getElementById("pontos-doc");
+    var maisTexto2 = document.getElementById("mais-doc");
+    var btnLeiaMais2 = document.getElementById("btnLeiaMais-doc");
+
+    if (pontos2.style.display === "none") {
+        pontos2.style.display = "inline";
+        maisTexto2.style.display = "none";
+        btnLeiaMais2.innerHTML = "Saiba Mais";
+    }
+    else {
+        pontos2.style.display = "none";
+        maisTexto2.style.display = "inline";
+        btnLeiaMais2.innerHTML = "Voltar";
+    }
+}
+function leiaMais3() {
+    var pontos3 = document.getElementById("pontos-mark");
+    var maisTexto3 = document.getElementById("mais-mark");
+    var btnLeiaMais3 = document.getElementById("btnLeiaMais-mark");
+
+    if (pontos3.style.display === "none") {
+        pontos3.style.display = "inline";
+        maisTexto3.style.display = "none";
+        btnLeiaMais3.innerHTML = "Saiba Mais";
+    }
+    else {
+        pontos3.style.display = "none";
+        maisTexto3.style.display = "inline";
+        btnLeiaMais3.innerHTML = "Voltar";
+    }
+}
+function leiaMais4() {
+    var pontos4 = document.getElementById("pontos-ads");
+    var maisTexto4 = document.getElementById("mais-ads");
+    var btnLeiaMais4 = document.getElementById("btnLeiaMais-ads");
+
+    if (pontos4.style.display === "none") {
+        pontos4.style.display = "inline";
+        maisTexto4.style.display = "none";
+        btnLeiaMais4.innerHTML = "Saiba Mais";
+    }
+    else {
+        pontos4.style.display = "none";
+        maisTexto4.style.display = "inline";
+        btnLeiaMais4.innerHTML = "Voltar";
+    }
+}
+function leiaMais5() {
+    var pontos5 = document.getElementById("pontos-qui");
+    var maisTexto5 = document.getElementById("mais-qui");
+    var btnLeiaMais5 = document.getElementById("btnLeiaMais-qui");
+
+    if (pontos5.style.display === "none") {
+        pontos5.style.display = "inline";
+        maisTexto5.style.display = "none";
+        btnLeiaMais5.innerHTML = "Saiba Mais";
+    }
+    else {
+        pontos5.style.display = "none";
+        maisTexto5.style.display = "inline";
+        btnLeiaMais5.innerHTML = "Voltar";
+    }
+}
+function leiaMais6() {
+    var pontos6 = document.getElementById("pontos-ves");
+    var maisTexto6 = document.getElementById("mais-ves");
+    var btnLeiaMais6 = document.getElementById("btnLeiaMais-ves");
+
+    if (pontos6.style.display === "none") {
+        pontos6.style.display = "inline";
+        maisTexto6.style.display = "none";
+        btnLeiaMais6.innerHTML = "Saiba Mais";
+    }
+    else {
+        pontos6.style.display = "none";
+        maisTexto6.style.display = "inline";
+        btnLeiaMais6.innerHTML = "Voltar";
+    }
+}
+function leiaMais7() {
+    var pontos1 = document.getElementById("pontos-seg");
+    var maisTexto1 = document.getElementById("mais-seg");
+    var btnLeiaMais1 = document.getElementById("btnLeiaMais-seg");
+
+    if (pontos6.style.display === "none") {
+        pontos6.style.display = "inline";
+        maisTexto6.style.display = "none";
+        btnLeiaMais6.innerHTML = "Saiba Mais";
+    }
+    else {
+        pontos6.style.display = "none";
+        maisTexto6.style.display = "inline";
+        btnLeiaMais6.innerHTML = "Voltar";
+    }
+}
+function leiaMais8() {
+    var pontos8 = document.getElementById("pontos-rh");
+    var maisTexto8 = document.getElementById("mais-rh");
+    var btnLeiaMais8 = document.getElementById("btnLeiaMais-rh");
+
+    if (pontos8.style.display === "none") {
+        pontos8.style.display = "inline";
+        maisTexto8.style.display = "none";
+        btnLeiaMais8.innerHTML = "Saiba Mais";
+    }
+    else {
+        pontos8.style.display = "none";
+        maisTexto8.style.display = "inline";
+        btnLeiaMais8.innerHTML = "Voltar";
+    }
+}
 function leiaMaisCorpo() {
 
     var ponto = document.getElementById("ponto");
