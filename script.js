@@ -110,19 +110,19 @@ function leiaMais6() {
     }
 }
 function leiaMais7() {
-    var pontos1 = document.getElementById("pontos-seg");
-    var maisTexto1 = document.getElementById("mais-seg");
-    var btnLeiaMais1 = document.getElementById("btnLeiaMais-seg");
+    var pontos7 = document.getElementById("pontos-seg");
+    var maisTexto7 = document.getElementById("mais-seg");
+    var btnLeiaMais7 = document.getElementById("btnLeiaMais-seg");
 
-    if (pontos6.style.display === "none") {
-        pontos6.style.display = "inline";
-        maisTexto6.style.display = "none";
-        btnLeiaMais6.innerHTML = "Saiba Mais";
+    if (pontos7.style.display === "none") {
+        pontos7.style.display = "inline";
+        maisTexto7.style.display = "none";
+        btnLeiaMais7.innerHTML = "Saiba Mais";
     }
     else {
-        pontos6.style.display = "none";
-        maisTexto6.style.display = "inline";
-        btnLeiaMais6.innerHTML = "Voltar";
+        pontos7.style.display = "none";
+        maisTexto7.style.display = "inline";
+        btnLeiaMais7.innerHTML = "Voltar";
     }
 }
 function leiaMais8() {
