@@ -61,13 +61,6 @@ a {
     margin: 5px;
 }
 
-summary {
-    text-decoration: none;
-    color: #000000;
-    text-decoration: none;
-    margin-top: -45px;
-    margin-left: 135px;
-}
 
 /*index*/
 
@@ -576,12 +569,6 @@ summary a {
         margin-top: 50px;
         padding: -20px;
     }
-
-    details {
-        margin-right: 0px;
-        margin-top: -95px;
-    }
-
     .alunos {
         margin-left: 180px;
         width: 40%;
