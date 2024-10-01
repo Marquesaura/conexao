@@ -410,7 +410,8 @@ h6 {
 
 .rodape h4 {
     margin: 10px;
-    font-family: "Poppins", Roboto, Georgia, 'Times New Roman', Times, serif;;
+    font-family: "Poppins", Roboto, Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
 }
 
 footer img {
