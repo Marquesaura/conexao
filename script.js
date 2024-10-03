@@ -155,7 +155,7 @@ function leiaMaisCorpo() {
     } else {
         ponto.style.display = "none";
         lerMais.style.display = "inline";
-        LeiaMais.innerHTML = "Ler Menos";
+        LeiaMais.innerHTML = "Voltar";
 
     }
 }
