@@ -15,6 +15,7 @@ header {
     padding: 0;
     box-sizing: 0;
 
+    
 }
 
 /* Largura da barra de rolagem */
@@ -185,11 +186,11 @@ a {
 }
 .mapa1{
     display: flex;
-    max-width: 200%;
+    max-width: 100%;
     min-width: 50%;
 }
 .linhas{
-    min-width: 150%;
+    min-width: 100%;
     padding: 20%;
     margin: 20px;
     
@@ -336,11 +337,7 @@ h2 {
     margin-right: 0px;
 }
 
-ul {
-    list-style-type: none;
-    margin: auto;
-    padding: auto;
-}
+
 
 footer {
     background-color: #BF3633;
@@ -480,14 +477,16 @@ button:hover {
 }
 
 .linhas {
-	width: 940px;
+	width: 1500px;
 	margin: 0 auto;
 	padding: 50px 0;
 }
 .linhas li {
+    justify-content: center;
+    align-items: center;
 	display: inline-block;
 	text-align: center;
-	width: 30%;
+	width: 97%;
 	vertical-align: top;
 	margin: 0 1.5%;
 	padding: 30px 20px;
@@ -634,4 +633,8 @@ button:hover {
         margin-left: -100px;
     }
 
+}
+/*Baroni esteve aqui :)*/
+.separa{
+    margin: 10px;
 }
