@@ -485,16 +485,14 @@ button:hover {
 	border: 2px solid #000000;
 	border-radius: 10px;
 }
-.linhas li:hover {
-	border-color: #C78C19;
-}
+
 .linhas li:active {
 	border-color: #088C19;	
 }
 .linhas li:hover h2 {
 	font-size: 34px;
 }
-.linhas h2 {
+.linhas h4 {
 	font-size: 30px;
 	font-weight: bold;
 }
