@@ -186,7 +186,7 @@ a {
 }
 .mapa1{
     display: flex;
-    max-width: 100%;
+    max-width: 99%;
     min-width: 50%;
 }
 .linhas{
@@ -381,16 +381,12 @@ span img {
     height: 280px;
     margin: 10px;
 }
-
+/*Baroni esteve aqui :)*/
 h5 {
     font-size: 20px;
     text-align: center;
-    padding-top: 20px;
-    position: relative;
     background-color: #BF3633;
-    padding-left: -20px;
     padding: 0%;
-
 }
 
 footer p,
@@ -406,9 +402,9 @@ footer p{
 }
 
 .alunos {
-    width: 80%;
+    text-align: center;
     background-color: #BF3633;
-    margin-left: 10%;
+
 }
 
 footer {
@@ -475,7 +471,7 @@ button:hover {
     margin-bottom: 20px;
     margin-left: 45%;
 }
-
+/*Baroni esteve aqui :)*/
 .linhas {
 	width: 1500px;
 	margin: 0 auto;
@@ -634,9 +630,10 @@ button:hover {
     }
 
 }
-/*Baroni esteve aqui :)*/
+
 .separa{
     margin: 10px;
+
 }
 ::-webkit-scrollbar {
     display: none;
