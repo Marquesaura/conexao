@@ -173,17 +173,27 @@ a {
 .ecot {
     color: white;
 }
-
+/*Baroni Esteve aqui :)*/
 .titulo_principal {
     margin: 20px;
     margin-top: 200px;
     margin-right: 140px;
     font-size: 56px;
-    display: inline-block;
+    display: flex;
     width: 36%;
     color: #a52226;
 }
-
+.mapa1{
+    display: flex;
+    max-width: 200%;
+    min-width: 50%;
+}
+.linhas{
+    min-width: 150%;
+    padding: 20%;
+    margin: 20px;
+    
+}
 .local {
     height: 2rem;
     color: black;
