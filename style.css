@@ -638,3 +638,6 @@ button:hover {
 .separa{
     margin: 10px;
 }
+::-webkit-scrollbar {
+    display: none;
+}
